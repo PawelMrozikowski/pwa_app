@@ -5,6 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap&subset=latin-ext");
 html {
   line-height: 1.15;
   /* 1 */
@@ -316,7 +317,75 @@ html {
           box-sizing: inherit; }
 
 body {
-  color: white;
-  background: #bad7ed; }
+  min-width: 375px;
+  width: 100%;
+  background: #3767AD;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+  font-family: Roboto;
+  padding: 16px; }
+
+.glass__date {
+  margin: 12px; }
+
+.glass__counter {
+  width: 280px;
+  height: 280px;
+  font-size: 112px;
+  font-weight: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute; }
+
+.glass__button {
+  width: 216px;
+  height: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .glass__button-add {
+    font-size: 18px;
+    padding-top: 12px;
+    padding-bottom: 22px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 40px 0 26px; }
+  .glass__button-remove {
+    width: 184px;
+    height: 24px;
+    color: #F5E5E7;
+    background: none;
+    font-size: 14px;
+    line-height: 16px;
+    padding-bottom: 14px; }
 
 /*# sourceMappingURL=main.css.map */
