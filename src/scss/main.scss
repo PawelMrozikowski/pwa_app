@@ -15,7 +15,8 @@ html {
 body {
   min-width: 375px;
   width: 100%;
-  //background: $blue;
+  background: url("/assets/img/video.mp4");
+  background-size: cover;
   
   display: flex;
   justify-content: center;
@@ -51,13 +52,13 @@ body {
 }
 
   &__pic {
-   
   }
 
   &__button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: white;
     
     // border: none;
 
@@ -70,19 +71,19 @@ body {
       text-align: center;
       border: none;
       border-radius: 4px;
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      box-shadow: 0 4px 4px rgba(0, 0, 0, .5);
       margin: 26px 0;
+      background: none;
 
       &:hover {
-        background:rgb(114, 127, 143);
-        color: white;
+        background:rgba(114, 127, 143, .5);
+        
       }
       
 
     }
     &-remove {
       width: 184px;
-      color: #F5E5E7;
       background: none;
       border: 1px solid white;
       font-size: 14px;
