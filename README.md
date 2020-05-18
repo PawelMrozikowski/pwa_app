@@ -1,4 +1,6 @@
-# wtf-gulp-starter
+# pwa_app
+
+![pic](https://url ...)
 
 `npm install -g gulp-cli`
 
@@ -7,3 +9,5 @@
 `gulp`
 
 To publish your page using github pages use `npm run deploy`
+
+
