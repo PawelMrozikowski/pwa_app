@@ -72,6 +72,12 @@ buttonRemove.addEventListener('click', (e) => {
 
 
 
+
+
+
+
+
+
 /*if (!localStorage.getItem(date)){
   //localStorage.setItem(date, 0);
   counter.innerHTML = '0';
